@@ -23,11 +23,17 @@ Evaporation (Forgetting): Pheromone on long, unused, or poor paths gradually fad
 ## Features
 
 •  Ant System Implementation: The core of the project uses the classic Ant System, which relies on pheromone trails and inverse distance (heuristic) to guide the ants.
+
 •  Parameter Tuning: Key ACO parameters are defined and can be adjusted in the code to control the algorithm's behavior:
+
 •	α (Alpha): Pheromone influence exponent.
+
 •	β (Beta): Distance/Heuristic influence exponent.
+
 •	ρ (Rho): Pheromone evaporation rate.
+
 •  Adaptive Ant Count: The number of ants deployed scales automatically based on the complexity of the problem 8 x number of cities, ensuring efficient exploration.
+
 •  Tour Completion: The ants are required to complete a full tour, returning to the starting city to calculate the final tour length and deposit pheromones.
 
 ---
