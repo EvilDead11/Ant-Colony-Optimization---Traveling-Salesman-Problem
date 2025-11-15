@@ -34,8 +34,9 @@ Evaporation (Forgetting): Pheromone on long, unused, or poor paths gradually fad
 
 ## Limitations
 
-•  Slow Convergence (Basic Algorithm): Your project uses the Ant System, which is the oldest and least efficient variant of ACO. It learns slowly compared to modern versions (like MMAS or ACS) because it lacks aggressive features to quickly focus the search on the best path found so far.
-•  Poor Scalability (O(n3)): The time required to find a solution grows very quickly as you add more cities (n). Since the ant count is tied to the city count (≈20n), the calculations become incredibly slow beyond 100 cities (O(n3) complexity), pushing the limits of what a web browser can realistically handle.
+Slow Convergence (Basic Algorithm): Your project uses the Ant System, which is the oldest and least efficient variant of ACO. It learns slowly compared to modern versions (like MMAS or ACS) because it lacks aggressive features to quickly focus the search on the best path found so far.
+
+Poor Scalability (O(n3)): The time required to find a solution grows very quickly as you add more cities (n). Since the ant count is tied to the city count (≈20n), the calculations become incredibly slow beyond 100 cities (O(n3) complexity), pushing the limits of what a web browser can realistically handle.
 
 ## Installation Guide
 
